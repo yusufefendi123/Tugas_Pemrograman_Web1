@@ -120,6 +120,38 @@ Elemen `<footer>` berfungsi sebagai bagian bawah halaman web yang biasanya beris
 JavaScript Arithmetic memungkinkan untuk melakukan operasi matematika pada angka, yang seringkali diperlukan dalam pengembangan aplikasi web. Contoh sederhana di atas menunjukkan penggunaan operator penjumlahan untuk menambahkan dua angka, yaitu 100 dan 50. Dalam kode JavaScript, nilai hasil dari operasi tersebut disimpan dalam variabel `x`. Kemudian, dengan menggunakan metode `getElementById()`, nilai `x` ditampilkan di dalam elemen HTML dengan id "demo" menggunakan properti `innerHTML`. Dengan operator aritmatika lain seperti pengurangan, perkalian, pembagian, modulus, increment, dan decrement, JavaScript dapat digunakan untuk melakukan berbagai operasi matematika yang kompleks dalam pengembangan web
 </p>
 
+![js1](https://github.com/yusufefendi123/Tugas_Pemrograman_Web1/assets/140128335/4460878d-c82d-4fe0-853e-ac46cc0bb65e)
+
+# 2. Function_js
+<p>
+  Function dalam JavaScript adalah blok kode yang dapat dipanggil atau dieksekusi untuk menjalankan tugas tertentu. Dalam kode HTML dan JavaScript di atas, terdapat sebuah function yang disebut `myFunction`. Function ini menerima dua parameter, yaitu `a` dan `b`, yang kemudian digunakan untuk melakukan perhitungan perkalian antara kedua parameter tersebut. Ketika function `myFunction` dipanggil dengan argumen 4 dan 3, maka akan menghasilkan nilai 12 (4 * 3). Hasil perkalian tersebut kemudian disimpan dalam variabel `x`. Selanjutnya, nilai variabel `x` ditampilkan di dalam elemen HTML dengan id "demo" menggunakan properti `innerHTML`. Dengan function, kode JavaScript dapat diorganisir menjadi blok-blok yang lebih kecil dan dapat digunakan kembali, meningkatkan keterbacaan dan keefektifan dalam pengembangan aplikasi web.
+</p>
+
+![js2](https://github.com/yusufefendi123/Tugas_Pemrograman_Web1/assets/140128335/49494021-7656-42e9-96c9-0a7cfe68e9a2)
+
+# 3. event_js
+<p>
+Event dalam JavaScript merujuk pada tindakan yang terjadi di dalam browser, seperti klik mouse, penekanan tombol keyboard, perubahan ukuran jendela, dan lain sebagainya. Dalam kode HTML dan JavaScript di atas, digunakan event `onclick` yang memungkinkan kita untuk menentukan aksi yang akan dijalankan ketika suatu elemen HTML diklik. Ketika tombol `<button>` diklik, fungsi `displayDate()` akan dipanggil. Fungsi ini bertugas untuk menampilkan waktu saat ini menggunakan `Date()` dan mengubah konten dari elemen HTML dengan id "demo" menggunakan properti `innerHTML`. Dengan event `onclick`, kita dapat menambahkan interaktivitas ke dalam halaman web, memungkinkan pengguna untuk berinteraksi dengan elemen-elemen di dalamnya dan menjalankan aksi tertentu sesuai kebutuhan.
+</p>
+
+![js3](https://github.com/yusufefendi123/Tugas_Pemrograman_Web1/assets/140128335/7d949c81-0e8a-46b6-b0fc-6366521c77cf)
+
+# 4. array_js
+<p>
+  Dalam kode di atas, kita menggunakan array JavaScript yang disebut `fruits`. Array ini berisi beberapa elemen buah seperti "Apple", "Orange", "Apple", dan "Mango". Kemudian, kita menggunakan metode `indexOf()` untuk mencari indeks pertama di mana elemen "Apple" ditemukan dalam array `fruits`. Setelah itu, kita tambahkan 1 ke hasil indeks tersebut karena indeks dalam array dimulai dari 0. Hasil ini kemudian ditampilkan dalam elemen HTML dengan id "demo" menggunakan properti `innerHTML`. Metode `indexOf()` sangat berguna untuk mencari posisi pertama dari suatu elemen dalam array, yang kemudian dapat digunakan untuk berbagai tujuan, seperti untuk menunjukkan posisi elemen tersebut dalam sebuah daftar atau untuk melakukan operasi lainnya berdasarkan posisi elemen dalam array.
+</p>
+
+![js4](https://github.com/yusufefendi123/Tugas_Pemrograman_Web1/assets/140128335/838c5d00-fcf6-45ca-a7c3-9ccce14631b8)
+
+# -- Web Sederhana HTML, CSS, dan JavaScript --
+![simple_js1](https://github.com/yusufefendi123/Tugas_Pemrograman_Web1/assets/140128335/0901d925-c9b6-4d79-b70b-b50d8dd92b34)
+<p> Style dan tampilan sama dengan yang di atas hanya menambhankan fungsi alert, date dan function </p>
+<h2>Code</h2>
+
+![code_js1](https://github.com/yusufefendi123/Tugas_Pemrograman_Web1/assets/140128335/b0ef5736-cd95-41b8-8bcb-71878fc31cfa)
+![code_js2](https://github.com/yusufefendi123/Tugas_Pemrograman_Web1/assets/140128335/9b62e5b4-2ffd-448d-9410-3fc2a2427b9f)
+
+
 
 
 
