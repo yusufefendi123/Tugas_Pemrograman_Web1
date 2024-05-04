@@ -1,0 +1,116 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Simple Web</title> 
+    <style>
+        /* CSS Styles */
+        * {
+            margin: 0; /* Mengatur margin menjadi 0 */
+            padding: 0; /* Mengatur padding menjadi 0 */
+            box-sizing: border-box; /* Mengatur box-sizing menjadi border-box untuk memasukkan padding dan border ke dalam ukuran elemen */
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Mengatur jenis font */
+            background-color: #f7f7f7; /* Mengatur warna latar belakang */
+            color: #333; /* Mengatur warna teks */
+            line-height: 1.6; /* Mengatur jarak antara baris */
+            margin: 0; /* Mengatur margin menjadi 0 */
+            padding: 0; /* Mengatur padding menjadi 0 */
+        }
+
+        header {
+            background-color: #333; /* Mengatur warna latar belakang */
+            color: #fff; /* Mengatur warna teks */
+            padding: 20px; /* Mengatur padding */
+            text-align: center; /* Mengatur rata teks menjadi tengah */
+        }
+
+        nav {
+            background-color: #555; /* Mengatur warna latar belakang */
+            padding: 10px; /* Mengatur padding */
+            text-align: center; /* Mengatur rata teks menjadi tengah */
+        }
+
+        nav ul {
+            list-style: none; /* Menghilangkan tanda bullet pada daftar */
+            padding: 0; /* Mengatur padding menjadi 0 */
+            margin: 0; /* Mengatur margin menjadi 0 */
+        }
+
+        nav ul li {
+            display: inline-block; /* Menampilkan daftar secara horizontal */
+            margin-right: 20px; /* Mengatur margin kanan */
+        }
+
+        nav ul li a {
+            text-decoration: none; /* Menghilangkan dekorasi tautan */
+            color: #fff; /* Mengatur warna teks */
+            font-weight: bold; /* Mengatur teks menjadi tebal */
+        }
+
+        section {
+            display: flex; /* Mengatur tata letak menjadi flexbox */
+            flex-wrap: wrap; /* Memungkinkan wrapping pada item flex */
+            justify-content: space-between; /* Mengatur ruang ekstra di antara item */
+            margin: 20px auto; /* Mengatur margin */
+            max-width: 1200px; /* Mengatur lebar maksimum */
+        }
+
+        article {
+            flex: 2; /* Mengatur lebar fleksibel */
+            background-color: #fff; /* Mengatur warna latar belakang */
+            padding: 20px; /* Mengatur padding */
+            border-radius: 5px; /* Mengatur sudut border */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Mengatur bayangan */
+            margin-bottom: 20px; /* Mengatur margin bottom */
+        }
+
+        footer {
+            background-color: #333; /* Mengatur warna latar belakang */
+            color: #fff; /* Mengatur warna teks */
+            padding: 20px; /* Mengatur padding */
+            text-align: center; /* Mengatur rata teks menjadi tengah */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Web Pemrograman1</h1> <!-- Judul utama halaman -->
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#">Home</a></li> <!-- Tautan menu navigasi -->
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+<section>
+    <article>
+        <h2>About Us</h2> <!-- Judul artikel "About Us" -->
+        <p>Web Sederhana Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita vel eligendi possimus vero odit similique earum incidunt atque id voluptate?</p> <!-- Konten artikel "About Us" -->
+    </article>
+    <article>
+        <h2>Teknik Informatika</h2> <!-- Judul artikel "Teknik Informatika" -->
+        <ul>
+            <li>Heading</li> <!-- Daftar item dalam artikel "Teknik Informatika" -->
+            <li>Paragraf</li>
+            <li>Pemformatan</li>
+            <li>Gaya</li>
+            <li>Tabel</li>
+            <li>Layouts</li>
+        </ul>
+    </article>
+</section>
+
+<footer>
+    <p>by SipSip</p> <!-- Informasi penutup atau hak cipta -->
+</footer>
+
+</body>
+</html>

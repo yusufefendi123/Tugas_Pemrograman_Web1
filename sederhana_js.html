@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mainblowing Web</title>
+    <style>
+        /* CSS Styling */
+        body {
+            font-family: Arial, sans-serif; /* Mengatur jenis font */
+            background-color: #f7f7f7; /* Warna latar belakang */
+            color: #333; /* Warna teks */
+            line-height: 1.6; /* Tinggi baris */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333; /* Warna latar belakang header */
+            color: #fff; /* Warna teks header */
+            padding: 20px;
+            text-align: center; /* Pusatkan teks dalam header */
+        }
+        section {
+            display: flex; /* Atur tata letak flexbox untuk artikel */
+            flex-wrap: wrap; /* Wrap artikel ketika melebihi lebar layar */
+            justify-content: space-between; /* Ratakan artikel */
+            margin: 20px auto; /* Ruang di atas dan bawah, dan pusatkan horisontal */
+            max-width: 1200px; /* Batasi lebar maksimum */
+        }
+        article {
+            flex: 1; /* Bagikan ruang secara merata untuk setiap artikel */
+            background-color: #fff; /* Warna latar belakang artikel */
+            padding: 20px; /* Ruang di dalam artikel */
+            border-radius: 5px; /* Sudut bulatan untuk pinggiran artikel */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Efek bayangan untuk artikel */
+            margin-bottom: 20px; /* Ruang di bawah setiap artikel */
+        }
+        footer {
+            background-color: #333; /* Warna latar belakang footer */
+            color: #fff; /* Warna teks footer */
+            padding: 20px; /* Ruang di dalam footer */
+            text-align: center; /* Pusatkan teks dalam footer */
+        }
+        /* JavaScript-specific styling */
+        button {
+            background-color: #007bff; /* Warna latar belakang tombol */
+            color: white; /* Warna teks tombol */
+            border: none; /* Tanpa border */
+            padding: 10px 20px; /* Ruang di dalam tombol */
+            cursor: pointer; /* Pointer saat dihover */
+            border-radius: 5px; /* Sudut bulatan untuk pinggiran tombol */
+        }
+        button:hover {
+            background-color: #0056b3; /* Warna latar belakang tombol saat dihover */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sederhana JavaScript</h1> <!-- Header utama -->
+</header>
+
+<section>
+    <article>
+        <h2>JavaScript Functions</h2> <!-- Artikel tentang fungsi JavaScript -->
+        <p>Call a function which performs a calculation and returns the result:</p> <!-- Deskripsi -->
+        <p id="demo"></p> <!-- Tempat menampilkan hasil -->
+        <button onclick="myFunction()">Run Function</button> <!-- Tombol untuk memanggil fungsi -->
+        <script>
+            function myFunction() {
+                const x = multiply(4, 3); // Panggil fungsi multiply
+                document.getElementById("demo").innerHTML = x; // Tampilkan hasil
+            }
+            function multiply(a, b) {
+                return a * b; // Fungsi untuk mengalikan dua angka
+            }
+        </script>
+    </article>
+    <article>
+        <h2>JavaScript HTML Events</h2> <!-- Artikel tentang event HTML di JavaScript -->
+        <p>Click the button to display the date and time:</p> <!-- Deskripsi -->
+        <p id="datetime"></p> <!-- Tempat menampilkan tanggal dan waktu -->
+        <button onclick="displayDateTime()">Display Date & Time</button> <!-- Tombol untuk menampilkan tanggal dan waktu -->
+        <script>
+            function displayDateTime() {
+                const currentDate = new Date(); // Dapatkan tanggal dan waktu saat ini
+                const dateTimeString = currentDate.toLocaleString(); // Format tanggal dan waktu sebagai string
+                document.getElementById("datetime").innerHTML = dateTimeString; // Tampilkan tanggal dan waktu
+                alert("Current date and time: " + dateTimeString); // Tampilkan juga sebagai alert
+            }
+        </script>
+    </article>
+    <article>
+        <h2>JavaScript Arrays</h2> <!-- Artikel tentang penggunaan array di JavaScript -->
+        <p>Use the indexOf() method to find the position of an element in an array:</p> <!-- Deskripsi -->
+        <p id="array"></p> <!-- Tempat menampilkan hasil -->
+        <script>
+            const fruits = ["Apple", "Orange", "Apple", "Mango"]; // Array buah
+            const position = fruits.indexOf("Apple") + 1; // Cari posisi "Apple" dalam array
+            document.getElementById("array").innerHTML = "Apple is found in position " + position; // Tampilkan hasil
+        </script>
+    </article>
+</section>
+
+<footer>
+    <p>by SipSip</p> <!-- Informasi penulis -->
+</footer>
+
+</body>
+</html>
