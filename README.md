@@ -51,3 +51,15 @@ Di luar tabel, terdapat juga elemen `<ol>` yang digunakan untuk membuat daftar t
 menggunakan CSS Flexbox untuk mengatur tata letaknya. Deklarasi dokumen dan pengaturan meta tag berada di dalam bagian <head>, sementara gaya CSS yang didefinisikan di dalam blok <style> mengatur tampilan elemen-elemen seperti header, navigasi, artikel, dan footer. Penggunaan properti Flexbox seperti display: flex memungkinkan untuk penataan elemen-elemen secara fleksibel, terutama dalam menangani responsivitas layar yang berbeda. Di dalam bagian <body>, konten halaman termasuk teks dan tautan, yang ditempatkan dalam struktur yang telah ditentukan menggunakan Flexbox. Ini menciptakan tata letak yang responsif terhadap perubahan ukuran layar, seperti penumpukan kolom pada layar yang lebih kecil. Dengan demikian, potongan kode tersebut menciptakan halaman web yang sederhana namun efektif, dengan tata letak yang responsif dan menarik..</p>
 
 ![6](https://github.com/yusufefendi123/Tugas_Pemrograman_Web1/assets/140128335/51efb39f-70e6-452f-bf39-8279fbc1b041)
+
+# WEb Sederhana HTML + CSS
+<p>
+
+Elemen <header>: Elemen ini digunakan untuk menentukan bagian atas halaman web yang biasanya berisi judul atau header utama. Di dalam contoh ini, <header> mengandung judul "Web Pemrograman1".
+Elemen <nav>: Elemen ini menandakan bagian navigasi dari halaman web. Biasanya berisi tautan menu atau navigasi ke halaman-halaman lain di situs web. Di sini, terdapat sebuah unordered list (<ul>) yang berisi tiga tautan menu: "Home", "About", dan "Contact".
+Elemen <section>: Elemen ini digunakan untuk membagi halaman web menjadi bagian-bagian yang berbeda. Dalam contoh ini, dua artikel yang berbeda ditampilkan di dalam elemen <section>. Setiap artikel diwakili oleh elemen <article>.
+Elemen <article>: Elemen ini digunakan untuk menandai konten independen yang dapat berdiri sendiri di dalam halaman web. Di sini, terdapat dua artikel yang berisi informasi tentang "About Us" dan "Teknik Informatika". Artikel "About Us" berisi paragraf deskripsi, sementara artikel "Teknik Informatika" berisi sebuah unordered list (<ul>) yang berisi beberapa item.
+Elemen <footer>: Elemen ini menandakan bagian bawah halaman web dan biasanya berisi informasi penutup seperti kredit penulis atau hak cipta. Di dalam contoh ini, elemen <footer> berisi teks "by SipSip".
+</p>
+
+![simple_web1](https://github.com/yusufefendi123/Tugas_Pemrograman_Web1/assets/140128335/7f130440-1250-4a89-a9a6-8505462f566d)
