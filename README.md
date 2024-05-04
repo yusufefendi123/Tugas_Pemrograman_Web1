@@ -88,6 +88,13 @@ Dalam pengembangan web, properti CSS `display: inline` dan `display: inline-bloc
 
 ![cc5](https://github.com/yusufefendi123/Tugas_Pemrograman_Web1/assets/140128335/e10d9bf6-fb18-420c-8bf1-0f7ededa3d68)
 
+# 5. Navigastion_bar
+<p>
+
+Navigasi bar dalam kode tersebut terdiri dari sebuah elemen `<ul>` yang mengandung beberapa elemen `<li>`. Setiap elemen `<li>` berisi sebuah tautan (`<a>`) yang mengarah ke halaman tertentu. Pengaturan tampilan navigasi bar ditentukan oleh CSS di dalam elemen `<style>`. Elemen `<ul>` memiliki warna latar belakang gelap (#38444d) dan overflow tersembunyi agar konten yang melebihi lebar tetap tersembunyi. Elemen-elemen `<li>` diatur agar melayang (float) ke kiri, dan tautan-tautan memiliki tata letak inline-block dengan warna teks putih. Ketika kursor diarahkan ke tautan atau elemen dropdown, warna latar belakangnya berubah menjadi merah. Dropdown dibuat dengan elemen `<div>` yang memiliki kelas `dropdown-content`, yang tata letaknya absolut. Konten dropdown muncul di atas halaman dengan warna latar belakang putih dan bayangan box. Dengan menggunakan kombinasi elemen HTML dan CSS ini, navigasi bar dengan dropdown menu yang interaktif dan responsif dapat dibuat dengan mudah.
+</p>
+![css6](https://github.com/yusufefendi123/Tugas_Pemrograman_Web1/assets/140128335/d80e2bea-eb43-4183-a957-48b6e68e2c00)
+
 
 # WEb Sederhana HTML + CSS
 <p>
