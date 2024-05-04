@@ -81,6 +81,11 @@ Dalam kode HTML ini, gaya list (ordered dan unordered) diatur menggunakan CSS. U
 </p>
 
 ![css4](https://github.com/yusufefendi123/Tugas_Pemrograman_Web1/assets/140128335/a3fb63b8-f276-4a21-9e97-2ef5b1ab717a)
+# 5. Inline
+<p>
+Dalam pengembangan web, properti CSS `display: inline` dan `display: inline-block` digunakan untuk mengatur tampilan elemen HTML. Elemen dengan properti `display: inline` akan ditampilkan dalam satu baris, tanpa memulai baris baru, dan properti ini tidak memengaruhi lebar atau tinggi elemen secara keseluruhan. Ini cocok untuk menampilkan elemen dalam konten teks, seperti teks atau tautan. Sementara itu, elemen dengan properti `display: inline-block` akan tetap ditampilkan dalam satu baris, tetapi memiliki kemampuan untuk mengatur lebar, tinggi, padding, dan margin, yang membuatnya lebih fleksibel daripada elemen inline. Ini memungkinkan elemen-elemen tersebut untuk mengisi ruang yang diberikan dalam satu baris, tetapi juga dapat memulai baris baru jika tidak ada ruang yang cukup. Dalam konteks navigasi, penggunaan `display: inline-block` memungkinkan tautan-tautan untuk ditampilkan secara horizontal (sejajar), yang biasanya ditampilkan secara vertikal. Ini memungkinkan penyusunan yang lebih baik dari tautan-tautan dalam navigasi horizontal, meningkatkan kejelasan dan navigabilitas situs web secara keseluruhan.
+</p>
+![cc5](https://github.com/yusufefendi123/Tugas_Pemrograman_Web1/assets/140128335/10fe3f41-a49b-448c-a9f0-f9525033fdc6)
 
 
 # WEb Sederhana HTML + CSS
