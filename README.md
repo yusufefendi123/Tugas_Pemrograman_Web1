@@ -115,4 +115,11 @@ Elemen `<footer>` berfungsi sebagai bagian bawah halaman web yang biasanya beris
 ![code2](https://github.com/yusufefendi123/Tugas_Pemrograman_Web1/assets/140128335/a5d7a163-df2d-4f85-b27f-6768be2eb862)
 ![code3](https://github.com/yusufefendi123/Tugas_Pemrograman_Web1/assets/140128335/b395a4a5-1e3d-4f78-9748-69c08965a66a)
 
+# 1. Aritmatic
+<p>
+JavaScript Arithmetic memungkinkan untuk melakukan operasi matematika pada angka, yang seringkali diperlukan dalam pengembangan aplikasi web. Contoh sederhana di atas menunjukkan penggunaan operator penjumlahan untuk menambahkan dua angka, yaitu 100 dan 50. Dalam kode JavaScript, nilai hasil dari operasi tersebut disimpan dalam variabel `x`. Kemudian, dengan menggunakan metode `getElementById()`, nilai `x` ditampilkan di dalam elemen HTML dengan id "demo" menggunakan properti `innerHTML`. Dengan operator aritmatika lain seperti pengurangan, perkalian, pembagian, modulus, increment, dan decrement, JavaScript dapat digunakan untuk melakukan berbagai operasi matematika yang kompleks dalam pengembangan web
+</p>
+![js1](https://github.com/yusufefendi123/Tugas_Pemrograman_Web1/assets/140128335/91805d71-63b3-4718-acf6-493b02c25e6e)
+
+
 
