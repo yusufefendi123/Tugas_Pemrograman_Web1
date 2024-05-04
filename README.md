@@ -79,7 +79,8 @@ Padding adalah properti CSS yang digunakan untuk menambahkan ruang tambahan di s
 
 Dalam kode HTML ini, gaya list (ordered dan unordered) diatur menggunakan CSS. Untuk unordered list (ul), ada dua list dengan tanda bulat dan kotak, masing-masing diberi class "a" dan "b", dengan properti untuk mengatur posisi tanda list. Sedangkan ordered list (ol) memiliki dua list dengan tanda angka Romawi besar dan huruf kecil, juga dengan class "c" dan "d". Selain itu, gaya tata letak, warna latar belakang, warna teks, padding, dan margin juga diatur untuk menyesuaikan penampilan list dan isinya. Semua pengaturan ini memberikan fleksibilitas bagi pengembang untuk menciptakan list yang sesuai dengan gaya dan kebutuhan desain halaman web mereka.
 </p>
-![css4](https://github.com/yusufefendi123/Tugas_Pemrograman_Web1/assets/140128335/dc41d0f2-241f-4931-8fb6-c296235cbf10)
+
+![css4](https://github.com/yusufefendi123/Tugas_Pemrograman_Web1/assets/140128335/a3fb63b8-f276-4a21-9e97-2ef5b1ab717a)
 
 
 # WEb Sederhana HTML + CSS
