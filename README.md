@@ -1,4 +1,3 @@
-![image](https://github.com/yusufefendi123/Tugas_Pemrograman_Web1/assets/140128335/94547539-7cc2-4da4-bffc-0196033a5115)# Tugas_Pemrograman_Web1
 
 # 1. Heading
 
