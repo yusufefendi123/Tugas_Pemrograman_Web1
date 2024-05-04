@@ -43,3 +43,12 @@ Dalam bagian `<body>`, tabel dibuat menggunakan elemen `<table>`, `<thead>`, dan
 Di luar tabel, terdapat juga elemen `<ol>` yang digunakan untuk membuat daftar terurut, di mana setiap item dalam daftar direpresentasikan oleh elemen `<li>`. Namun, properti gaya CSS yang didefinisikan di dalam blok `<style>` hanya berlaku untuk elemen-elemen yang didefinisikan di dalam blok tersebut, sehingga daftar terurut tersebut tidak akan terpengaruh oleh aturan gaya yang didefinisikan untuk tabel.</p>
 
 ![5](https://github.com/yusufefendi123/Tugas_Pemrograman_Web1/assets/140128335/42d90f38-dee1-4f4a-b961-13437146bc6b)
+
+# 6. Layouts
+<p>
+  
+Pada bagian <style>, aturan gaya CSS didefinisikan untuk mengatur tampilan elemen-elemen dalam halaman web. Ini termasuk mengatur gaya untuk elemen-elemen seperti <header>, <nav>, <article>, dan <footer>, serta penggunaan properti-properti seperti display: flex untuk membuat layout dengan Flexbox.
+Elemen-elemen dalam halaman, seperti header, navigasi, artikel, dan footer, diberi gaya yang sesuai dengan tujuan dan fungsinya masing-masing. Misalnya, elemen <header> diberi latar belakang berwarna abu-abu (#666) dengan teks berwarna putih untuk menonjolkan judul, sementara elemen <article> diberi latar belakang berwarna abu-abu muda (#f1f1f1) untuk membedakannya dari bagian lain halaman.
+Di bagian <body>, konten halaman seperti teks dan tautan ditambahkan, dan elemen-elemen tersebut ditempatkan dalam struktur yang telah ditentukan menggunakan Flexbox. Ini memungkinkan tata letak yang fleksibel dan responsif terhadap perubahan ukuran layar, seperti stacking kolom pada layar yang lebih kecil.</p>
+
+![6](https://github.com/yusufefendi123/Tugas_Pemrograman_Web1/assets/140128335/51efb39f-70e6-452f-bf39-8279fbc1b041)
