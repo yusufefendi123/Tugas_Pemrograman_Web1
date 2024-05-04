@@ -1,4 +1,4 @@
-# Tugas_Pemrograman_Web1
+![image](https://github.com/yusufefendi123/Tugas_Pemrograman_Web1/assets/140128335/94547539-7cc2-4da4-bffc-0196033a5115)# Tugas_Pemrograman_Web1
 
 # 1. Heading
 
@@ -51,6 +51,21 @@ Di luar tabel, terdapat juga elemen `<ol>` yang digunakan untuk membuat daftar t
 menggunakan CSS Flexbox untuk mengatur tata letaknya. Deklarasi dokumen dan pengaturan meta tag berada di dalam bagian <head>, sementara gaya CSS yang didefinisikan di dalam blok <style> mengatur tampilan elemen-elemen seperti header, navigasi, artikel, dan footer. Penggunaan properti Flexbox seperti display: flex memungkinkan untuk penataan elemen-elemen secara fleksibel, terutama dalam menangani responsivitas layar yang berbeda. Di dalam bagian <body>, konten halaman termasuk teks dan tautan, yang ditempatkan dalam struktur yang telah ditentukan menggunakan Flexbox. Ini menciptakan tata letak yang responsif terhadap perubahan ukuran layar, seperti penumpukan kolom pada layar yang lebih kecil. Dengan demikian, potongan kode tersebut menciptakan halaman web yang sederhana namun efektif, dengan tata letak yang responsif dan menarik..</p>
 
 ![6](https://github.com/yusufefendi123/Tugas_Pemrograman_Web1/assets/140128335/51efb39f-70e6-452f-bf39-8279fbc1b041)
+
+# 1. bacground_css
+<p>
+
+Background adalah properti CSS yang memungkinkan pengaturan latar belakang pada elemen HTML. Properti-properti yang sering digunakan dalam background meliputi background-color yang mengatur warna latar belakang, background-image yang menetapkan gambar latar belakang, background-repeat yang mengatur pengulangan gambar latar belakang, background-attachment yang mengontrol apakah gambar latar belakang akan tetap statis atau mengikuti guliran halaman, background-position yang menentukan posisi awal gambar latar belakang, dan background sebagai properti singkat yang menggabungkan semua properti latar belakang menjadi satu. Dengan menggunakan kombinasi properti ini, pengembang web dapat menciptakan tampilan yang menarik dan konsisten untuk halaman web mereka. Misalnya, untuk menetapkan latar belakang dengan warna solid biru, gambar bintang sebagai latar belakang yang diulang secara horizontal, dan tetap statis saat digulirkan, kita dapat menggunakan: background-color: blue; background-image: url('bintang.png'); background-repeat: repeat-x; background-attachment: fixed;.
+</p>
+
+![css1](https://github.com/yusufefendi123/Tugas_Pemrograman_Web1/assets/140128335/ec0df6c5-0a40-48d0-b6e0-1a39a7b33e9f)
+
+# 3. Padding_css
+<p>
+Padding adalah properti CSS yang digunakan untuk menambahkan ruang tambahan di sekitar isi dari sebuah elemen. Properti padding dapat diatur secara terpisah untuk setiap sisi (atas, kanan, bawah, dan kiri) dari elemen tersebut. Padding-top mengatur ruang tambahan di bagian atas elemen, padding-right mengatur ruang tambahan di bagian kanan elemen, padding-bottom mengatur ruang tambahan di bagian bawah elemen, dan padding-left mengatur ruang tambahan di bagian kiri elemen. Dengan menggunakan padding, pengembang web dapat mengontrol jarak antara isi elemen dan tepi elemen tersebut atau elemen lain di sekitarnya. Misalnya, untuk memberikan elemen sebuah padding 20 piksel di bagian atas, 10 piksel di bagian kanan, 30 piksel di bagian bawah, dan 15 piksel di bagian kiri, kita dapat menggunakan: padding-top: 20px; padding-right: 10px; padding-bottom: 30px; padding-left: 15px;. Dengan menggunakan kombinasi properti ini, kita dapat menciptakan tata letak yang sesuai dengan kebutuhan desain halaman web.
+</p>
+
+![css2](https://github.com/yusufefendi123/Tugas_Pemrograman_Web1/assets/140128335/5660bd94-14e6-43eb-9cb6-5219f7969f28)
 
 # WEb Sederhana HTML + CSS
 <p>
