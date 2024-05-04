@@ -60,6 +60,14 @@ Background adalah properti CSS yang memungkinkan pengaturan latar belakang pada 
 
 ![css1](https://github.com/yusufefendi123/Tugas_Pemrograman_Web1/assets/140128335/ec0df6c5-0a40-48d0-b6e0-1a39a7b33e9f)
 
+# 2. Margin_css
+<p>
+  
+Margin dalam CSS digunakan untuk menentukan jarak antara tepi luar dari sebuah elemen dan elemen lain di sekitarnya. Properti margin dapat diatur secara terpisah untuk setiap sisi (atas, kanan, bawah, dan kiri) dari elemen tersebut. Dalam contoh kode yang diberikan, terdapat beberapa penggunaan properti margin. Pada elemen `<div>`, properti `margin: 25px 50px 75px 100px;` menetapkan jarak antara tepi luar elemen tersebut dengan elemen lainnya, dengan nilai 25px untuk atas, 50px untuk kanan, 75px untuk bawah, dan 100px untuk kiri. Selain itu, terdapat beberapa penggunaan properti margin terpisah seperti `margin-top`, `margin-bottom`, `margin-right`, dan `margin-left` untuk menetapkan jarak antara elemen dengan tepi atas, bawah, kanan, dan kiri secara terpisah. Penggunaan nilai `inherit` pada properti margin-left untuk elemen `<p>` memungkinkan elemen tersebut mewarisi nilai margin dari elemen induknya. Dengan penggunaan properti margin, pengembang dapat mengatur tata letak elemen dengan lebih fleksibel dan menyesuaikan jarak antara elemen sesuai dengan kebutuhan desain halaman web.
+</p>
+
+![css3](https://github.com/yusufefendi123/Tugas_Pemrograman_Web1/assets/140128335/6ed755b9-5f7b-4ee3-ac95-dcca25eb8eee)
+
 # 3. Padding_css
 <p>
 Padding adalah properti CSS yang digunakan untuk menambahkan ruang tambahan di sekitar isi dari sebuah elemen. Properti padding dapat diatur secara terpisah untuk setiap sisi (atas, kanan, bawah, dan kiri) dari elemen tersebut. Padding-top mengatur ruang tambahan di bagian atas elemen, padding-right mengatur ruang tambahan di bagian kanan elemen, padding-bottom mengatur ruang tambahan di bagian bawah elemen, dan padding-left mengatur ruang tambahan di bagian kiri elemen. Dengan menggunakan padding, pengembang web dapat mengontrol jarak antara isi elemen dan tepi elemen tersebut atau elemen lain di sekitarnya. Misalnya, untuk memberikan elemen sebuah padding 20 piksel di bagian atas, 10 piksel di bagian kanan, 30 piksel di bagian bawah, dan 15 piksel di bagian kiri, kita dapat menggunakan: padding-top: 20px; padding-right: 10px; padding-bottom: 30px; padding-left: 15px;. Dengan menggunakan kombinasi properti ini, kita dapat menciptakan tata letak yang sesuai dengan kebutuhan desain halaman web.
