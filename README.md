@@ -48,10 +48,6 @@ Di luar tabel, terdapat juga elemen `<ol>` yang digunakan untuk membuat daftar t
 # 6. Layouts
 <p>
 
-  
-Pada bagian <style>, aturan gaya CSS didefinisikan untuk mengatur tampilan elemen-elemen dalam halaman web. Ini termasuk mengatur gaya untuk elemen-elemen seperti ,
-<header>, <nav>, <article>, dan <footer>, serta penggunaan properti-properti seperti display: flex untuk membuat layout dengan Flexbox.
-Elemen-elemen dalam halaman, seperti header, navigasi, artikel, dan footer, diberi gaya yang sesuai dengan tujuan dan fungsinya masing-masing. Misalnya, elemen <header> diberi latar belakang berwarna abu-abu (#666) dengan teks berwarna putih untuk menonjolkan judul, sementara elemen <article> diberi latar belakang berwarna abu-abu muda (#f1f1f1) untuk membedakannya dari bagian lain halaman.
-Di bagian <body>, konten halaman seperti teks dan tautan ditambahkan, dan elemen-elemen tersebut ditempatkan dalam struktur yang telah ditentukan menggunakan Flexbox. Ini memungkinkan tata letak yang fleksibel dan responsif terhadap perubahan ukuran layar, seperti stacking kolom pada layar yang lebih kecil.</p>
+menggunakan CSS Flexbox untuk mengatur tata letaknya. Deklarasi dokumen dan pengaturan meta tag berada di dalam bagian <head>, sementara gaya CSS yang didefinisikan di dalam blok <style> mengatur tampilan elemen-elemen seperti header, navigasi, artikel, dan footer. Penggunaan properti Flexbox seperti display: flex memungkinkan untuk penataan elemen-elemen secara fleksibel, terutama dalam menangani responsivitas layar yang berbeda. Di dalam bagian <body>, konten halaman termasuk teks dan tautan, yang ditempatkan dalam struktur yang telah ditentukan menggunakan Flexbox. Ini menciptakan tata letak yang responsif terhadap perubahan ukuran layar, seperti penumpukan kolom pada layar yang lebih kecil. Dengan demikian, potongan kode tersebut menciptakan halaman web yang sederhana namun efektif, dengan tata letak yang responsif dan menarik..</p>
 
 ![6](https://github.com/yusufefendi123/Tugas_Pemrograman_Web1/assets/140128335/51efb39f-70e6-452f-bf39-8279fbc1b041)
