@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- Daftar HTML dapat ditata dengan berbagai cara dengan CSS. -->
+    <style>
+        ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333333;
+        }
+        
+        lis {
+        float: left;
+        }
+        
+        lis a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+        }
+        
+        li a:hover {
+        background-color: #111111;
+        }
+        </style>
+<body>
+    <!-- Daftar tidak berurutan dimulai dengan <ul>tag. Setiap item daftar dimulai dengan <li>tag. -->
+        <ul>
+            <lis><a href="#home">Home</a></lis>
+            <lis><a href="#news">News</a></lis>
+            <lis><a href="#contact">Contact</a></lis>
+            <lis><a href="#about">About</a></lis>
+        </ul>
+    <!-- Tag <dl>mendefinisikan daftar deskripsi, <dt>tag mendefinisikan istilah (nama), dan <dd> tag menjelaskan setiap istilah: -->
+        <dl>
+            <dt>Coffee</dt>
+            <dd>- black hot drink</dd>
+            <dt>Milk</dt>
+            <dd>- white cold drink</dd>
+        </dl>
+
+<!-- type="1"	The list items will be numbered with numbers (default)
+type="A"	The list items will be numbered with uppercase letters
+type="a"	The list items will be numbered with lowercase letters
+type="I"	The list items will be numbered with uppercase roman numbers
+type="i"	The list items will be numbered with lowercase roman numbers -->
+
+    <ol type="1">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <ol type="A">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <ol type="a">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+    
+    <ol type="I">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <ol type="i">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+    <!-- Secara default, daftar yang diurutkan akan mulai menghitung dari 1. Jika Anda ingin mulai menghitung dari angka tertentu, Anda dapat menggunakan atribut start: -->
+    <ol start="50">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+        </ol>
+        <!-- Daftar dapat disarangkan (daftar di dalam daftar): -->
+        <ol>
+            <li>Coffee</li>
+            <li>Tea
+            <ol>
+                <li>Black tea</li>
+                <li>Green tea</li>
+            </ol>
+            </li>
+            <li>Milk</li>
+        </ol>
+        <!-- Tag <dl>mendefinisikan daftar deskripsi, tag mendefinisikan istilah (nama), dan tag menjelaskan setiap istilah: <dt> <dd></dd> -->
+            <dl>
+                <dt>Coffee</dt>
+                <dd>- black hot drink</dd>
+                <dt>Milk</dt>
+                <dd>- white cold drink</dd>
+              </dl>
+</body>
+</html>

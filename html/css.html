@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Lembar gaya eksternal digunakan untuk menentukan gaya pada banyak halaman HTML.
+    Untuk menggunakan style sheet eksternal, tambahkan link ke dalamnya di <head>bagian setiap halaman HTML: -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<style>
+    /* CSS internal digunakan untuk menentukan gaya untuk satu halaman HTML. */
+h1 {
+    color: blue;
+    font-family: verdana;
+    font-size: 300%;
+    }
+p {
+    /* Penggunaan properti perbatasan CSS:  */
+    border: 2px solid powderblue;
+    padding: 30px;
+    margin: 50px;
+    color: red;
+    font-family: courier;
+    font-size: 160%;
+    }
+    </style>
+<body>
+    <!-- CSS sebaris digunakan untuk menerapkan gaya unik ke satu elemen HTML. -->
+    <h1 style="color:blue;">A Blue Heading</h1>
+    <p style="color:red;">A red paragraph.</p>
+</body>
+</html>

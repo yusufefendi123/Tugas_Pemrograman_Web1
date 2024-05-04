@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* Atribut width, height, dan stylesemuanya valid dalam HTML.
+     */
+    img {
+      width: 100%;
+    }
+    /* untuk menambahkan bacground */
+        body {
+    background-image: url('https://2.bp.blogspot.com/-N29vxIDn7ZQ/Vr_2hQA9C8I/AAAAAAAAAkc/VAvt5h3CjiA/s1600/161%2B%25284%2529.JPG');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+    </style>
+<body>
+    <!-- Tag HTML <img>digunakan untuk menyematkan gambar di halaman web. -->
+    <img src="url" alt="alternatetext">
+    <!-- Atribut yang diperlukan srcmenentukan jalur (URL) ke gambar. -->
+    <img src="https://2.bp.blogspot.com/-N29vxIDn7ZQ/Vr_2hQA9C8I/AAAAAAAAAkc/VAvt5h3CjiA/s1600/161%2B%25284%2529.JPG" alt="Flowers in Chania">
+    <!-- Nilai atribut altharus mendeskripsikan gambar: -->
+    <img src="https://2.bp.blogspot.com/-N29vxIDn7ZQ/Vr_2hQA9C8I/AAAAAAAAAkc/VAvt5h3CjiA/s1600/161%2B%25284%2529.JPG" alt="Flowers in Chania">
+    <!-- Jika browser tidak dapat menemukan gambar, maka browser akan menampilkan nilai atribut alt : -->
+    <img src="wrongname.gif" alt="Flowers in Chania">
+    <!-- dapat menggunakan styleatribut untuk menentukan lebar dan tinggi suatu gambar. -->
+    <img src="https://tse3.mm.bing.net/th?id=OIP.5QhRgfdKvbozsxRVNE8VVwHaHa&pid=Api&P=0&h=180" alt="Girl in a jacket" style="width:500px;height:600px;">
+    <!-- dapat menggunakan atribut width and height saja: -->
+    <img src="https://tse3.mm.bing.net/th?id=OIP.5QhRgfdKvbozsxRVNE8VVwHaHa&pid=Api&P=0&h=180" alt="Girl in a jacket" style="width:500px;height:600px;">
+    <!-- Jika Anda memiliki gambar di sub-folder, Anda harus menyertakan nama folder di srcatribut: -->
+    <img src="/images/html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
+    <!-- Beberapa situs web menunjuk ke gambar di server lain. -->
+    <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">
+    <!-- HTML memungkinkan GIF animasi: -->
+    <img src="programming.gif" alt="Computer Man" style="width:48px;height:48px;">
+    <!-- Untuk menggunakan gambar sebagai tautan, letakkan <img>tag di dalam <a> tag: -->
+        <a href="default.asp">
+            <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+          </a>
+
+    <!-- Tag HTML <map>mendefinisikan peta gambar. Peta gambar adalah gambar dengan area yang dapat diklik. Area ditentukan dengan satu atau lebih <area>tag. -->
+            <img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+    <map name="workmap">
+    <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+    <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+    <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map>
+
+<!-- Area yang dapat diklik juga dapat memicu fungsi JavaScript.
+Tambahkan clickacara ke <area>elemen untuk menjalankan fungsi JavaScript: -->
+
+    <h2>Image Maps</h2>
+    <p>Click on the cup of coffee to execute a JavaScript function:</p>
+    <img src="https://www.w3schools.com/html/workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+    <map name="workmap">
+    <area shape="circle" coords="337,300,44" href="coffee.htm" onclick="myFunction()">
+    </map>
+  
+    <!-- // Browser akan menggunakan format gambar pertama yang dikenalinya: -->
+
+    <picture>
+  <source srcset="img_avatar.png">
+  <source srcset="img_girl.jpg">
+  <img src="img_beatles.gif" alt="Beatles" style="width:auto;">
+</picture>
+
+</script>
+</body>
+</html>
