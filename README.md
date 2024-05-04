@@ -34,3 +34,10 @@ Sementara itu, elemen `<sub>` digunakan untuk membuat teks menjadi subscript, ya
 
 ![4](https://github.com/yusufefendi123/Tugas_Pemrograman_Web1/assets/140128335/fff8d419-1827-4210-b921-b9cb3ba223dd)
 
+# 5. Table
+<p>Dalam potongan kode tersebut, blok `<style>` digunakan untuk menentukan aturan gaya CSS yang diterapkan pada elemen-elemen dalam halaman HTML. Ini termasuk tabel (`<table>`), sel kepala tabel (`<th>`), dan sel data tabel (`<td>`). Properti CSS yang diterapkan meliputi `font-family`, `border`, `padding`, `margin`, dan `text-align`, yang mempengaruhi jenis font, garis batas, jarak, dan perataan teks dalam elemen-elemen tersebut. 
+Tambahan aturan gaya pada elemen `<thead>` menentukan latar belakang hitam dan teks putih, yang membuat baris kepala tabel menonjol dan mudah dibaca.
+Dalam bagian `<body>`, tabel dibuat menggunakan elemen `<table>`, `<thead>`, dan `<tbody>`. Kepala tabel (`<thead>`) berisi baris yang mendefinisikan judul setiap kolom, sedangkan badan tabel (`<tbody>`) berisi data yang akan ditampilkan. Setiap baris data direpresentasikan oleh elemen `<tr>`, dengan setiap sel data dalam baris direpresentasikan oleh elemen `<td>`. Ini memberikan struktur yang terorganisir dan mudah dibaca pada tabel.
+Di luar tabel, terdapat juga elemen `<ol>` yang digunakan untuk membuat daftar terurut, di mana setiap item dalam daftar direpresentasikan oleh elemen `<li>`. Namun, properti gaya CSS yang didefinisikan di dalam blok `<style>` hanya berlaku untuk elemen-elemen yang didefinisikan di dalam blok tersebut, sehingga daftar terurut tersebut tidak akan terpengaruh oleh aturan gaya yang didefinisikan untuk tabel.</p>
+
+![5](https://github.com/yusufefendi123/Tugas_Pemrograman_Web1/assets/140128335/42d90f38-dee1-4f4a-b961-13437146bc6b)
