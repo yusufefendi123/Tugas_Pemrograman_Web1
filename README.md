@@ -65,5 +65,6 @@ Elemen `<footer>` berfungsi sebagai bagian bawah halaman web yang biasanya beris
 ![simple_web1](https://github.com/yusufefendi123/Tugas_Pemrograman_Web1/assets/140128335/7f130440-1250-4a89-a9a6-8505462f566d)
 
 <h2>Gaya untuk bagian-bagianya</h2>
-![code1](https://github.com/yusufefendi123/Tugas_Pemrograman_Web1/assets/140128335/9dd81a12-2719-4a39-aed8-a13fe1e58dd4)
+
+![code1](https://github.com/yusufefendi123/Tugas_Pemrograman_Web1/assets/140128335/38d5db59-e2eb-4d53-987e-24cc41a4ede6)
 
