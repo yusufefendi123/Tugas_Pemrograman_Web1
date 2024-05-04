@@ -29,3 +29,8 @@ Sementara itu, elemen `<sub>` digunakan untuk membuat teks menjadi subscript, ya
 
 ![3](https://github.com/yusufefendi123/Tugas_Pemrograman_Web1/assets/140128335/0b607d93-edf4-4300-8392-c32e6ab4b237)
 
+# 4. Gaya
+<p> properti CSS digunakan untuk mengatur tampilan elemen-elemen dalam halaman web. Penggunaan properti seperti background-color, color, font-size, font-family, dan text-align memberikan kemampuan untuk menyesuaikan warna, ukuran, jenis font, dan perataan teks secara spesifik. Dengan menambahkan gaya langsung ke elemen HTML menggunakan atribut style, pengembang dapat dengan mudah mengatur tampilan elemen tanpa perlu membuat file CSS terpisah. Ini memungkinkan kontrol yang lebih langsung dan fleksibel dalam penataan tampilan halaman web. Dengan memahami penggunaan properti CSS ini, pengembang dapat membuat halaman web yang menarik dan mudah dibaca dengan memperbaiki tampilan dan formatnya sesuai dengan keinginan.</p>
+
+![4](https://github.com/yusufefendi123/Tugas_Pemrograman_Web1/assets/140128335/fff8d419-1827-4210-b921-b9cb3ba223dd)
+
