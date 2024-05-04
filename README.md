@@ -55,11 +55,8 @@ menggunakan CSS Flexbox untuk mengatur tata letaknya. Deklarasi dokumen dan peng
 # WEb Sederhana HTML + CSS
 <p>
 
-Elemen <header>: Elemen ini digunakan untuk menentukan bagian atas halaman web yang biasanya berisi judul atau header utama. Di dalam contoh ini, <header> mengandung judul "Web Pemrograman1".
-Elemen <nav>: Elemen ini menandakan bagian navigasi dari halaman web. Biasanya berisi tautan menu atau navigasi ke halaman-halaman lain di situs web. Di sini, terdapat sebuah unordered list (<ul>) yang berisi tiga tautan menu: "Home", "About", dan "Contact".
-Elemen <section>: Elemen ini digunakan untuk membagi halaman web menjadi bagian-bagian yang berbeda. Dalam contoh ini, dua artikel yang berbeda ditampilkan di dalam elemen <section>. Setiap artikel diwakili oleh elemen <article>.
-Elemen <article>: Elemen ini digunakan untuk menandai konten independen yang dapat berdiri sendiri di dalam halaman web. Di sini, terdapat dua artikel yang berisi informasi tentang "About Us" dan "Teknik Informatika". Artikel "About Us" berisi paragraf deskripsi, sementara artikel "Teknik Informatika" berisi sebuah unordered list (<ul>) yang berisi beberapa item.
-Elemen <footer>: Elemen ini menandakan bagian bawah halaman web dan biasanya berisi informasi penutup seperti kredit penulis atau hak cipta. Di dalam contoh ini, elemen <footer> berisi teks "by SipSip".
+
+Elemen-elemen di dalam elemen <body> dari kode HTML yang Anda berikan membentuk struktur halaman web yang terorganisir dengan baik. Mulai dari <header> yang menampilkan judul utama halaman, kemudian <nav> yang berisi menu navigasi dengan tautan menu ke halaman lain, dan diikuti dengan <section> yang membagi konten utama menjadi beberapa bagian. Setiap bagian dalam <section> diwakili oleh elemen <article>, yang masing-masing berfungsi untuk menampilkan konten independen, seperti informasi tentang "About Us" dan "Teknik Informatika". Terakhir, terdapat elemen <footer> yang menampilkan informasi penutup atau kredit penulis. Dengan menggunakan tag-tag ini, halaman web tidak hanya memiliki tampilan yang terstruktur secara visual, tetapi juga membantu meningkatkan pengalaman pengguna dengan memudahkan navigasi dan pemahaman konten.
 </p>
 
 ![simple_web1](https://github.com/yusufefendi123/Tugas_Pemrograman_Web1/assets/140128335/7f130440-1250-4a89-a9a6-8505462f566d)
