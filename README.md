@@ -55,6 +55,7 @@ menggunakan CSS Flexbox untuk mengatur tata letaknya. Deklarasi dokumen dan peng
 # WEb Sederhana HTML + CSS
 <p>
 
+
 Elemen-elemen di dalam elemen <body> dari kode HTML yang Anda berikan bekerja sama untuk membentuk struktur yang terorganisir dan informatif pada halaman web. Elemen <header> menyediakan tempat untuk menampilkan judul utama, sementara <nav> menyediakan navigasi yang mudah diakses bagi pengguna. <section> memungkinkan konten utama untuk dibagi menjadi bagian-bagian yang terfokus, dan setiap bagian tersebut diwakili oleh elemen <article>, yang mengandung konten independen seperti deskripsi "About Us" dan daftar "Teknik Informatika". Terakhir, elemen <footer> memberikan informasi penutup yang relevan, seperti nama penulis atau hak cipta. Dengan menggunakan tag-tag ini dengan cara yang terstruktur dan efektif, halaman web dapat memberikan pengalaman yang lebih baik bagi pengguna, meningkatkan navigabilitas dan pemahaman konten.
 </p>
 
