@@ -49,7 +49,8 @@ Di luar tabel, terdapat juga elemen `<ol>` yang digunakan untuk membuat daftar t
 <p>
 
   
-Pada bagian <style>, aturan gaya CSS didefinisikan untuk mengatur tampilan elemen-elemen dalam halaman web. Ini termasuk mengatur gaya untuk elemen-elemen seperti <header>, <nav>, <article>, dan <footer>, serta penggunaan properti-properti seperti display: flex untuk membuat layout dengan Flexbox.
+Pada bagian <style>, aturan gaya CSS didefinisikan untuk mengatur tampilan elemen-elemen dalam halaman web. Ini termasuk mengatur gaya untuk elemen-elemen seperti ,
+<header>, <nav>, <article>, dan <footer>, serta penggunaan properti-properti seperti display: flex untuk membuat layout dengan Flexbox.
 Elemen-elemen dalam halaman, seperti header, navigasi, artikel, dan footer, diberi gaya yang sesuai dengan tujuan dan fungsinya masing-masing. Misalnya, elemen <header> diberi latar belakang berwarna abu-abu (#666) dengan teks berwarna putih untuk menonjolkan judul, sementara elemen <article> diberi latar belakang berwarna abu-abu muda (#f1f1f1) untuk membedakannya dari bagian lain halaman.
 Di bagian <body>, konten halaman seperti teks dan tautan ditambahkan, dan elemen-elemen tersebut ditempatkan dalam struktur yang telah ditentukan menggunakan Flexbox. Ini memungkinkan tata letak yang fleksibel dan responsif terhadap perubahan ukuran layar, seperti stacking kolom pada layar yang lebih kecil.</p>
 
