@@ -10,7 +10,8 @@ HTML (Hypertext Markup Language) adalah bahasa standar yang digunakan untuk memb
 
 # 2. Paragraf
 <p>
-  
+
+
 Tag `<p>` adalah elemen yang digunakan untuk menandai awal dan akhir dari sebuah paragraf dalam dokumen HTML. Ini berfungsi untuk mengelompokkan teks atau konten yang berhubungan secara logis dalam bentuk paragraf yang terpisah. Setiap kali tag `<p>` digunakan, teks yang berada di dalamnya dianggap sebagai bagian dari sebuah paragraf baru. Ini membantu dalam menata konten secara terstruktur dan meningkatkan keterbacaan halaman web, karena memungkinkan untuk memisahkan gagasan atau informasi yang berbeda dalam paragraf-paragraf yang berbeda pula.
 Tag `<hr>` digunakan untuk membuat aturan horizontal di dalam halaman HTML. Aturan horizontal ini sering digunakan untuk memisahkan konten yang berbeda, seperti bagian-bagian dari halaman, atau untuk menandai perubahan yang signifikan dalam konten. Penggunaan `<hr>` membantu dalam memperjelas struktur halaman web dan memberikan petunjuk visual kepada pengguna tentang bagaimana konten halaman terorganisir. Meskipun secara default `<hr>` menghasilkan garis horizontal yang melintasi lebar halaman, tampilannya dapat disesuaikan dengan CSS untuk memenuhi kebutuhan desain yang spesifik.
 Tag `<br>` digunakan untuk menambahkan jeda baris di dalam teks. Ini berguna ketika ingin membuat jeda baris tanpa memulai paragraf baru. Ketika tag `<br>` digunakan, teks berikutnya akan ditampilkan di baris baru, setelah jeda yang dihasilkan oleh tag tersebut. Penggunaan yang umum dari `<br>` adalah untuk menambahkan jarak vertikal antara elemen-elemen teks atau konten dalam satu paragraf atau dalam konteks tertentu. Meskipun tag `<br>` bersifat inline dan tidak memiliki tag penutup, tetapi tidak masalah menambahkan tag penutup untuk konsistensi, meskipun secara teknis tidak diperlukan dalam HTML.</p>
@@ -46,6 +47,7 @@ Di luar tabel, terdapat juga elemen `<ol>` yang digunakan untuk membuat daftar t
 
 # 6. Layouts
 <p>
+
   
 Pada bagian <style>, aturan gaya CSS didefinisikan untuk mengatur tampilan elemen-elemen dalam halaman web. Ini termasuk mengatur gaya untuk elemen-elemen seperti <header>, <nav>, <article>, dan <footer>, serta penggunaan properti-properti seperti display: flex untuk membuat layout dengan Flexbox.
 Elemen-elemen dalam halaman, seperti header, navigasi, artikel, dan footer, diberi gaya yang sesuai dengan tujuan dan fungsinya masing-masing. Misalnya, elemen <header> diberi latar belakang berwarna abu-abu (#666) dengan teks berwarna putih untuk menonjolkan judul, sementara elemen <article> diberi latar belakang berwarna abu-abu muda (#f1f1f1) untuk membedakannya dari bagian lain halaman.
